@@ -1,0 +1,43 @@
+# Python environments
+.venv/
+venv/
+env/
+
+# Python and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets and local environment settings
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local build, render, and export work
+.deck_work/
+**/.deck_work/
+**/__pycache__/
+# Ad-hoc slide captures and render outputs; the editable deck and notes remain tracked.
+presentation/*.png
+presentation/*.pdf
+presentation/*.inspect.ndjson
+presentation/assets/
+presentation/build_deck.py
+presentation/build_final_deck.py
+presentation/capture_overview.mjs
+presentation/slide_review.md
+*.tmp
+*.log
+*.bak
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
